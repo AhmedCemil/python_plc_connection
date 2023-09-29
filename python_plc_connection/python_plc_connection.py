@@ -21,7 +21,7 @@ class PythonPLCConnection(tk.Tk):
 
         # region config form
 
-        self.title("Scanner Camera Application")
+        self.title("Python PLC Connection Test Application")
 
         # set columns width
         self.col_width = 30
