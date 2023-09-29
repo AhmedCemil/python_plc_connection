@@ -129,7 +129,7 @@ class PythonPLCConnection(tk.Tk):
         # Read variable from plc button
         self.read_variable_from_plc_button = tk.Button(
             self.frame,
-            text="Read variable to plc",
+            text="Read variable from plc",
             command=self.read_variable_from_plc_func,
             bg="white",
             width=self.col_width,
