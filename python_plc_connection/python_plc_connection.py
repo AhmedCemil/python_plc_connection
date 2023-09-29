@@ -189,7 +189,7 @@ class PythonPLCConnection(tk.Tk):
         )
         self.read_variable_from_plc_func()
 
-    def read_variable_from_plc_func(self):O
+    def read_variable_from_plc_func(self):
         self.read_variable_from_plc_status.set(
             str(
                 self.plc.read_by_name(
