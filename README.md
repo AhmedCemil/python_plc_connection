@@ -1,6 +1,10 @@
 # python_plc_connection
 A Python package that allows to communicate with PLC.
 
+Needed libraries and their versions:
+Pillow==10.0.1
+pyads==3.3.9
+
 This is a standalone application.
 
 You can install and run the python_plc_connection.py file.
